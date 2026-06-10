@@ -1,0 +1,32 @@
+# Secrets — never commit
+.env
+.env.*
+*.key
+*_secret*
+credentials*.json
+service_account*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Data & model artifacts (kept out of the public repo)
+*.json
+*.jsonl
+*.csv
+*.parquet
+*.graphml
+*.bin
+*.safetensors
+outputs/
+data/
+wandb/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
